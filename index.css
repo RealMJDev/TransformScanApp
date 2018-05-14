@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+}
+
+/*//////////////////////==1==/////////////////////
+    This is Text Above The Icons On The Home Page
+/////////////////////////////////////////////////*/
+.ListTextDiv {
+    position: fixed;
+    left: 7%;
+    bottom: 35%;
+    
+}
+.ListTextDiv .ListText {
+    position: relative;
+    left: 50%;
+    font-family: 'Black Han Sans', sans-serif;
+    color: white;
+}
+/*NEXT TEXT*/
+.ScanTextDiv {
+    position: fixed;
+    left: 50%;
+    bottom: 25%;
+}
+.ScanTextDiv .ScanText {
+    position: relative;
+    left: -49%;
+    font-family: 'Black Han Sans', sans-serif;
+    color: white;
+}
+/*NEXT TEXT*/
+.PricetextDiv {
+    position: fixed;
+    right: 7%;
+    bottom: 35%;
+}
+.PriceText {
+    position: relative;
+    left: -25%;
+    font-family: 'Black Han Sans', sans-serif;
+    color: white;
+}
+
+
+
+/*//////////////////==2==////////////////////
+This is the Transform logo in the background
+////////////////////////////////////////////*/
+#TransformLogo {
+    position: fixed;
+    left: 20%;
+    right: 20%;
+    top: 20%;
+    display: block;
+    width: 60%;
+    opacity: 0.5;
+}
+
+
+/*/////////==3==///////////
+This is the home scan icon
+//////////////////////////*/
+.HomeScanIconDiv {
+    position: fixed;
+    display: block;
+    left: 0;
+    bottom: 10%;
+    width: 100%;
+    height: 100px;
+}
+.HomeScanIcon {
+    display: block;
+    margin: auto;
+    width: 100px;
+}
+
+
+/*////////////==4==////////////
+    This is the home list icon
+//////////////////////////////*/
+.HomeListIconDiv {
+    position: fixed;
+    left: 7%;
+    bottom: 20%;
+    width: 100px;
+    height: 100px;
+}
+.HomeListIcon {
+    width: 100px;
+}
+
+
+/*/////////////==5==/////////////
+    This is the home price icon
+////////////////////////////////*/
+.HomePriceIconDiv {
+    position: fixed;
+    right: 7%;
+    bottom: 20%;
+    width: 100px;
+    height: 100px;
+}
+
+.HomePriceIcon {
+    width: 100px;
+}
