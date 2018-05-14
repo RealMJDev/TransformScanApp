@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+}
+
+/* /////////////////==1==/////////////////
+    Home Icon In The Top Left Of The Page
+/////////////////////////////////////////*/
+.Home-Icon-Div {
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+}
+
+.Home-Icon-Div .Home-Icon {
+    width: 100%;
+}
+
+
+/* /////////////////////==2==//////////////////////
+    This Is The Div That Contains The Camera View
+////////////////////////////////////////////////*/
+#camera-Container {
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: #111111;
+}
+
+
+/* ////////////////////////==3==////////////////////////
+    This Is The Input Where The Scanned Code Will Display
+////////////////////////////////////////////////////////*/
+.Scanned-Code-Container {
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Scanned-Code-Container .userTextInput {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: teal;
+}
+
+
+/* ////////////////////////==4==////////////////////////
+    This Is The Input Where The Scanned Code Will Display
+////////////////////////////////////////////////////////*/
+.Quantity-Selector-Div {
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 15%;
+}
+
+.Quantity-Selector-Div .userQtyInput {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: teal;
+}
+
+
+/* ////////////////////////////==5==////////////////////////////
+    This Is The Icon That Adds The Code And Quantity To The List
+///////////////////////////////////////////////////////////////*/
+.Add-Item-To-List-Div {
+    position: fixed;
+    left: 0%;
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+}
+
+.Add-Item-To-List-Div .addItemToListIcon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
